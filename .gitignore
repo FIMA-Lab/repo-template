@@ -1,0 +1,36 @@
+# ALLOWLIST .gitignore (Option 2 layout, 2026-10-01).
+# Everything at the repo root is ignored unless explicitly re-included below.
+# A misfiled file (decision letter, referee PDF, private note) therefore stays
+# out of git by default; adding a new top-level folder requires a line here.
+/*
+!/.gitignore
+!/.gitmodules
+!/README.md
+!/TODO.md
+!/admin/
+!/coding/
+!/data/
+!/_logs/
+!/_snapshots/
+!/papers2read/
+!/overleaf
+
+# Private, never committed (re-ignored explicitly for clarity)
+CLAUDE.local.md
+
+# Within allowed folders
+.DS_Store
+data/raw-data/*
+!data/raw-data/README.md
+__pycache__/
+.ipynb_checkpoints/
+*.aux
+*.log
+*.bbl
+*.blg
+*.synctex.gz
+
+# large, regenerable machine output (e.g. EDA/output, per-run CSVs, MCMC draw archives)
+coding/**/output/*
+!coding/**/output/README.md
+*.mat
