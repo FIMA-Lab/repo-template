@@ -17,5 +17,3 @@ art and its difficulty, (3) your contribution / the gap you bridge, (4) your dat
 
 - [Manuscript](https://www.overleaf.com/project/[OVERLEAF-PROJECT-ID])
 - [Slides](https://canva.link/[CANVA-ID])
-- [Google Sheets](https://docs.google.com/spreadsheets/d/[SHEET-ID]/edit) — feedback & response log
-
